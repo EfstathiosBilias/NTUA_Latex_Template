@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+\usepackage{blindtext}
+\usepackage{alphabeta}
+\usepackage[utf8]{inputenc}
+\usepackage[main=greek, english]{babel}
+\usepackage{hyperref}
+
+\usepackage{titling}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\begin{document}
+
+\author{\foreignlanguage{english}{Authors}}
+
+
+\title{\foreignlanguage{english}{Exercise Title}}
+
+\begin{titlepage}
+    \begin{center}
+
+        \Huge
+        \textbf{\foreignlanguage{english}{Class}}
+
+        \vspace{0.5cm}
+        \LARGE
+        \foreignlanguage{english}{\# Exercise}
+
+        \vspace{0.3cm}
+        {\vspace{-2em}\let\newpage\relax\maketitle\vspace{-2em}}
+
+        \vspace{0.8cm}
+
+        \includegraphics[width=0.3\textwidth]{logo.png}
+
+        \vspace{0.8cm}
+        \Large
+        ΣΗΜΜΥ\\
+        Εθνικό Μετσόβιο Πολυτεχνείο\\
+
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\setcounter{page}{2}
+\pagebreak
+
+
+\end{document}
